@@ -5,11 +5,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -160,6 +161,27 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5193725696562204239}
+    - targetCorrespondingSourceObject: {fileID: -1507176677376751580, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2870821236957804490}
+    - targetCorrespondingSourceObject: {fileID: 1582691924739308033, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4382331501122670699}
+    - targetCorrespondingSourceObject: {fileID: -6728853142202057382, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 182173437873371259}
+    - targetCorrespondingSourceObject: {fileID: 2271436178238224595, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9100298369177271820}
+    - targetCorrespondingSourceObject: {fileID: 3198896233827727512, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 536637898971107878}
   m_SourcePrefab: {fileID: 100100000, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
 --- !u!1 &2218920115166933827 stripped
 GameObject:
@@ -179,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfItem: Bottom
+  idItem: 0
 --- !u!1 &6287044241320085053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6728853142202057382, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
@@ -197,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfItem: Hand Cloth
+  idItem: 2
 --- !u!1 &6465653901925811199 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3198896233827727512, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
@@ -215,6 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfItem: Wings
+  idItem: 4
 --- !u!1 &6928936672050397542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1582691924739308033, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
@@ -233,6 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfItem: Circle
+  idItem: 1
 --- !u!1 &7663892853064909748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2271436178238224595, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
@@ -251,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfItem: The rod
+  idItem: 3
 --- !u!1 &8727755124833240630 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b63d348ba99987545be51ff7b445cf7d, type: 3}
@@ -268,3 +295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a378cf7c97799348a00bfead34901a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  supportedSkin:
+  - {fileID: 2870821236957804490}
+  - {fileID: 4382331501122670699}
+  - {fileID: 182173437873371259}
+  - {fileID: 9100298369177271820}
+  - {fileID: 536637898971107878}
