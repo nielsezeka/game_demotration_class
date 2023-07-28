@@ -5,7 +5,8 @@ using System;
 public class SkinManager : MonoBehaviour
 {
     public SkinPart[] supportedSkin;
-    // Start is called before the first frame update
+   
+    //singleton 
     public static SkinManager Instance { get; private set; }
     private void Awake()
     {
@@ -16,6 +17,7 @@ public class SkinManager : MonoBehaviour
         }
         Instance = this;
     }
+
     public SkinPart GetPartID(int index)
     {
         return Array.Find(supportedSkin, p => p.idItem == index);

@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_AuditionGame/Scenes/FirstStep.unity
-    guid: 729ecc95178569c4ea742bdaaba04e5c
+    path: Assets/_OneTwoThreeDemo/Scene/MainGamePlay.unity
+    guid: 9a5ee512aa6754fbda181c754ce209fc
   m_configObjects: {}

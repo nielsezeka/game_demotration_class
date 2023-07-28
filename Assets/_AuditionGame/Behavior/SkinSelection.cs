@@ -9,6 +9,7 @@ public class SkinSelection : MonoBehaviour
     public int index;
     public TMP_Text textObject;
     public UnityEngine.UI.Image selectedImage;
+    public DemoCustomCloth myCothl;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,6 @@ public class SkinSelection : MonoBehaviour
     }
     public void Onclick()
     {
-        SkinManager.Instance.ShowHidePart(index);
+        SingetonTestManager.Instance.cloth.SetActive(false);
     }
 }
