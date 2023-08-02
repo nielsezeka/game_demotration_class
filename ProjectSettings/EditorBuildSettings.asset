@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_OneTwoThreeDemo/Scene/MainGamePlay.unity
-    guid: 9a5ee512aa6754fbda181c754ce209fc
+    path: Assets/Fruit Link/Scenes/welcome.unity
+    guid: bee1883edb88e35408221dc1790c38dd
+  - enabled: 1
+    path: Assets/Fruit Link/Scenes/select_map.unity
+    guid: bee98af5f391ff549b4218632383841a
+  - enabled: 1
+    path: Assets/Fruit Link/Scenes/play.unity
+    guid: 912d5a0ca7b543c42b870fbff444cff9
+  - enabled: 1
+    path: Assets/Fruit Link/Scenes/loading.unity
+    guid: 48c4c3de9ed601540a94ba874ff8c968
   m_configObjects: {}
